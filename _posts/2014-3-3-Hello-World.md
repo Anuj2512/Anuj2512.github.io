@@ -1,10 +1,18 @@
 ---
 layout: post
-title: You're up and running!
+title: How to create CLI with golang's cobra library
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Cobra library provides super easy way to create powerful interactive command line applications and programs to generate applications and commandline files. 
+
+Library implementation: [https://github.com/spf13/cobra](https://github.com/spf13/cobra). 
+
+Documentation: [https://godoc.org/github.com/spf13/cobra](https://godoc.org/github.com/spf13/cobra)
+
+This library allows developers to delevop CLI across all platform(Linux, MacOS, Windows). Many powerful CLI like docker, kubectl, clusterctl are built using golang's cobra library.
+
+Here we will be creating a simple CLI application to create file, delete file and write to file.
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+To be added soon. Work in progress...
